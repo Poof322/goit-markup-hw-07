@@ -181,7 +181,7 @@
     content: "";
   }
   
-  .checkbox__input:checked + .checkbox-label::after {
+  .checkbox__input:checked + .checkbox__label::after {
     opacity: 1;
     transition: opacity 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
