@@ -158,7 +158,7 @@
 .checkbox__input {
   appearance: none;
   
-  _label {
+  &_label {
   position: relative;
   display: block;
   padding-left: 28px;
@@ -172,7 +172,7 @@
   color: #757575;
 }
 
-__label::before {
+&__label::before {
   position: absolute;
   top: 4px;
   left: 0;
@@ -183,7 +183,7 @@ __label::before {
   content: "";
 }
 
-__label::after {
+&__label::after {
   position: absolute;
   top: 4px;
   left: 0;
@@ -199,13 +199,13 @@ __label::after {
   content: "";
 }
 
-__input:checked + __label::after {
+&__input:checked + &__label::after {
   opacity: 1;
   transition: opacity 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-__label-conditions {
+&__label-conditions {
   color: #2196f3;
   text-decoration: underline;
 

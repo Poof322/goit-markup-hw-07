@@ -69,7 +69,7 @@
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    .boxcard__link:hover {
+    &__link:hover {
       fill: #ffffff;
       background-color: #2196f3;
   }
