@@ -21,36 +21,36 @@
 <body >
        <!--Header-->
        <header class="header">
-        <div class="container header-container">
+        <div class="container header__container">
           <nav class="header__nav">
           
-            <a href="./index.html" lang="en" class="webstudio">
+            <a href="./index.html" lang="en" class="header__logo">
               <span style="color: #2196f3">Web</span
               ><span style="color: black">Studio</span>
             </a>
             <ul class="header__menu">
               <li >
-                <a href="./index.html"  class="navigation"> Студія </a>
+                <a href="./index.html"  class="header__navigation"> Студія </a>
               </li>
               <li >
                 <a href="./portfolio.html" class="current"> Портфоліо </a>
               </li>
   
               <li>
-                <a href="#" class="navigation"> Контакти </a>
+                <a href="#" class="header__navigation"> Контакти </a>
               </li>
             </ul>
           </nav>
           <ul class="header__address">
             <li >
-              <a href="meilto:info@devstudio.com" class="navigation__address">               
+              <a href="meilto:info@devstudio.com" class="header__e-address">               
                 <svg class="icon__mail" width="16" height="12">
                   <use href="./images/icons.svg#icon-envelope">
                   </use>
                 </svg>info@devstudio.com</a>
             </li>
             <li >
-              <a href="tel:+380961111111" class="navigation__address"
+              <a href="tel:+380961111111" class="header__e-address"
                 > <svg class="icon__phone" width="10" height="16">
                   <use href="./images/icons.svg#icon-Vector">
                   </use>
@@ -70,21 +70,21 @@
       <div class="container">
         <h1 style="display: none">Портфоліо</h1>
         <!--NaviGation-->
-        <ul class="portfolio__button-small">
+        <ul class="portfolio__navigation">
           <li>
-            <button type="button" class="button__small">Усі</button>
+            <button type="button" class="portfolio__nav-button">Усі</button>
           </li>
           <li>
-            <button type="button" class="button__small">Веб-Сайти</button>
+            <button type="button" class="portfolio__nav-button">Веб-Сайти</button>
           </li>
           <li>
-            <button type="button" class="button__small">Додатки</button>
+            <button type="button" class="portfolio__nav-button">Додатки</button>
           </li>
           <li>
-            <button type="button" class="button__small">Дизайн</button>
+            <button type="button" class="portfolio__nav-button">Дизайн</button>
           </li>
           <li>
-            <button type="button" class="button__small">Маркетинг</button>
+            <button type="button" class="portfolio__nav-button">Маркетинг</button>
           </li>
         </ul>
 
@@ -237,7 +237,7 @@
         <ul class="footer__address">
           <li class="footer__link">
             <a href="м.Київ,пр-тЛесіУкраїнки,26">
-              <span class="address__footer"
+              <span class="footer__street"
                 >м. Київ, пр-т Лесі Українки, 26</span
               >
             </a>
@@ -302,6 +302,9 @@
       </form>
     </div>
   </footer>
+  <script src="./modal/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
+
 
 </html>
